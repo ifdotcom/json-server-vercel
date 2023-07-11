@@ -1,9 +1,200 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "orders": [
+    {
+      "userId": ":r1:",
+      "client": "Fernanda ",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 2,
+            "name": "Hamburguesa clásica",
+            "price": "150",
+            "image": "https://user-images.githubusercontent.com/124700237/246950934-0b8c5d6d-3855-4154-9e63-15a8be06bcb7.png",
+            "type": "Cena",
+            "dateEntry": "2023-06-19T22:28:51.742Z"
+          }
+        }
+      ],
+      "status": "deleted",
+      "dateEntry": "2023-07-10T14:49:10.221Z",
+      "id": 1,
+      "dateProcessed": "2023-07-10T19:54:31.349Z"
+    },
+    {
+      "userId": ":r3:",
+      "client": "Fernanda V.",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 2,
+            "name": "Hamburguesa clásica",
+            "price": "150",
+            "image": "https://user-images.githubusercontent.com/124700237/246950934-0b8c5d6d-3855-4154-9e63-15a8be06bcb7.png",
+            "type": "Cena",
+            "dateEntry": "2023-06-19T22:28:51.742Z"
+          }
+        }
+      ],
+      "status": "deleted",
+      "dateEntry": "2023-07-10T19:54:03.092Z",
+      "id": 2,
+      "dateProcessed": "2023-07-10T21:06:15.955Z"
+    },
+    {
+      "userId": ":r3:",
+      "client": "fer",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 2,
+            "name": "Hamburguesa clásica",
+            "price": "150",
+            "image": "https://user-images.githubusercontent.com/124700237/246950934-0b8c5d6d-3855-4154-9e63-15a8be06bcb7.png",
+            "type": "Cena",
+            "dateEntry": "2023-06-19T22:28:51.742Z"
+          }
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "2023-07-10T21:06:26.782Z",
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "products": [
+    {
+      "id": 1,
+      "name": "Sandwich de jamón y queso",
+      "price": "2",
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-20T18:40:22.658Z",
+      "product": "Sandwich de jamón y queso",
+      "date": "2023-06-19T17:46:09.874Z"
+    },
+    {
+      "name": "Hamburguesa clásica",
+      "price": "150",
+      "image": "https://user-images.githubusercontent.com/124700237/246950934-0b8c5d6d-3855-4154-9e63-15a8be06bcb7.png",
+      "type": "Cena",
+      "dateEntry": "2023-06-19T22:28:51.742Z",
+      "id": 2,
+      "product": "Hamburguesa clásica"
+    },
+    {
+      "name": "Papas fritas",
+      "price": "100",
+      "image": "https://user-images.githubusercontent.com/124700237/246950943-4c92d79a-d6d9-45a1-80ae-d9ee0365bb10.png",
+      "type": "Cena",
+      "dateEntry": "2023-06-19T22:16:24.156Z",
+      "id": 3,
+      "product": "Papas fritas"
+    },
+    {
+      "name": "Bebida",
+      "price": "10",
+      "image": "https://user-images.githubusercontent.com/124700237/246949965-4168595f-3fe3-481a-bdb8-3c0860b2f78c.png",
+      "type": "Cena",
+      "dateEntry": "2023-06-19T22:04:25.273Z",
+      "id": 4
+    },
+    {
+      "name": "Combo",
+      "price": "250",
+      "image": "https://user-images.githubusercontent.com/124700237/246950625-ac3ad6c1-af8c-4f04-b4b1-f660b686eaf7.png",
+      "type": "Cena",
+      "dateEntry": "2023-06-19T22:17:01.263Z",
+      "id": 5
+    },
+    {
+      "name": "Ensalada",
+      "price": "150",
+      "image": "https://user-images.githubusercontent.com/124700237/246950238-e2300878-8c21-4b02-a058-8b2d25d1b4ae.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T22:17:24.186Z",
+      "id": 6
+    },
+    {
+      "name": "Huevos fritos",
+      "price": "90",
+      "image": "https://user-images.githubusercontent.com/124700237/246950234-5609f622-5a06-411b-b910-0cae883e5354.png",
+      "type": "Desayuno",
+      "dateEntry": "2023-06-19T22:17:47.902Z",
+      "id": 7
+    },
+    {
+      "name": "Happy Cmobo",
+      "price": "250",
+      "image": "https://user-images.githubusercontent.com/124700237/246951282-fb17518e-6705-4ac3-962d-dabf7ffb6b2b.png",
+      "type": "Cena",
+      "dateEntry": "2023-06-19T22:20:45.014Z",
+      "id": 8
+    },
+    {
+      "name": "Jugo de naranja",
+      "price": "30",
+      "image": "https://user-images.githubusercontent.com/124700237/246951479-4c914ac1-8e86-422e-9dd5-04390ad5877f.png",
+      "type": "Desayuno",
+      "dateEntry": "2023-06-19T22:23:16.716Z",
+      "id": 9
+    },
+    {
+      "name": "Hamburguesa para niñxs",
+      "price": "70",
+      "image": "https://user-images.githubusercontent.com/124700237/246951675-a31826c5-4bff-41c1-a3e1-a7d828e377bf.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T22:25:54.595Z",
+      "id": 10
+    },
+    {
+      "name": "Ensalada Cesar",
+      "price": "150",
+      "image": "https://user-images.githubusercontent.com/124700237/246951998-0b2a1301-bcfc-4a7c-bfa6-b58ecffdfc91.png",
+      "type": "Almuerzo",
+      "dateEntry": "2023-06-19T22:30:28.052Z",
+      "id": 11
+    },
+    {
+      "name": "Café americano",
+      "price": "5",
+      "image": "https://github.com/Maarlenf/DEV005-burger-queen-api-client/blob/pruebas/burger-queen-fer-marlen/src/assets/americano.png?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2023-06-26T17:40:10.283Z",
+      "id": 12
+    }
   ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "email": "grace.hopper@systers.xyz",
+      "password": "$2a$10$nb18RBeNh/0KufNu..sAXep3D7.nGay0uBcEae/BZP9fGp910Q/Xe",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "mesero@falso.com",
+      "password": "$2a$10$K3g209l1CejH.1bxoj2O8uxmfoxlVedhRmprOckUCHP1qOvQtKfXi",
+      "role": "waiter",
+      "id": 4
+    },
+    {
+      "email": "chef@falso.com",
+      "password": "$2a$10$v7eVBVmi1/lXeXPbuayIHuBItd8b/cPx1u660UcVjFHLyM3HWXxYy",
+      "role": "chef",
+      "id": 5
+    },
+    {
+      "email": "1@f.com",
+      "password": "$2a$10$QnyYlvaEQC8RQrqX5zSbzOCuK0nKErJJTg7ZR2XaYSNH2pqF1RMMi",
+      "role": "admin",
+      "id": 6
+    },
+    {
+      "email": "2@f.com",
+      "password": "$2a$10$z77u5UgE8fr145AvQE.svu66QCknGT9ruPStS0Uopx/.TeyZpYFeC",
+      "role": "waiter",
+      "id": 7
+    }
+  ]
 }
